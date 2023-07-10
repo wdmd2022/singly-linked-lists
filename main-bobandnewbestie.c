@@ -18,5 +18,6 @@ int main(void)
     newbestie->next = head;
     head = newbestie;
     print_friends(head);
-    return;
+
+    return (0);
 }
